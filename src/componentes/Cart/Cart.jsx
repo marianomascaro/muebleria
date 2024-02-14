@@ -31,7 +31,7 @@ const Cart = () => {
                 </button>
                 <Link 
                     to='/checkout'
-                    className='bg-sky-600 text-white font-semibold py-2 px-3 rounded-lg'
+                    className='bg-sky-600 text-white font-semibold py-2 px-3 rounded-lg text-center'
                 >
                     Finalizar Compra
                 </Link>

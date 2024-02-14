@@ -7,7 +7,8 @@ const CartItem = ({item, cantidad, eliminarProducto}) => {
         <div className='flex flex-row'>
           <p className='font-semibold text-xl'>{item.nombre}</p>
           <button
-            onClick={eliminarProducto}
+            title='Sacar este producto del carrito'
+            onClick={() => eliminarProducto(item.id)}
             className='bg-red-600 px-1.5 ml-3 rounded-full'
           >
             <XMarkIcon className='w-4 h-4 text-white' />

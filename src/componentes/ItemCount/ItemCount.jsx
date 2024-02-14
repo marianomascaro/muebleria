@@ -20,7 +20,7 @@ const ItemCount = ({inicial, stock, funcionAgregar }) => {
 
   return (
     <>
-      <div className="flex flex-row space-x-5 justify-center">
+      <div className="flex flex-row space-x-5 justify-center mt-5">
         <button 
           onClick={decrementar}
           className="bg-gray-300 px-3 py-1 rounded-xl"

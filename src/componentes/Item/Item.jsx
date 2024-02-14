@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Item = ({id, stock, nombre, precio, img}) => {
   return (
-    <div className='py-5 space-y-1 ml-5 mt-5 bg-sky-50 rounded-lg w-60 flex flex-col items-center'>
+    <div className='py-5 space-y-1 ml-5 mt-5 bg-sky-100 rounded-lg w-60 flex flex-col items-center shadow-lg'>
         <img src={img} alt={nombre} className='w-40 h-40' />
         <h3>Artículo: {nombre}</h3>
         <p className='text-sm'>ID: {id}</p>

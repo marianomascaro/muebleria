@@ -11,17 +11,17 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li className='m-4 cursor-pointer inline-block'>
-                  <NavLink to='/categoria/2'>
+                  <NavLink to='/categoria/2' className='bg-green-400 font-semibold py-2 px-3 rounded-lg shadow-xl'>
                     Sillas
                   </NavLink>
                 </li>
                 <li className='m-4 cursor-pointer inline-block'>
-                  <NavLink to='/categoria/3' >
+                  <NavLink to='/categoria/3' className='bg-green-400 font-semibold py-2 px-3 rounded-lg shadow-xl' >
                     Mesas
                   </NavLink>
                 </li>
                 <li className='m-4 cursor-pointer inline-block'>
-                  <NavLink to='/categoria/4'>
+                  <NavLink to='/categoria/4' className='bg-green-400 font-semibold py-2 px-3 rounded-lg shadow-xl'>
                     Armarios
                   </NavLink>
                 </li>

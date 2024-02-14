@@ -22,7 +22,7 @@ const ItemDetail = ({ id, nombre, stock, precio, img }) => {
         <p className='text-sm'>ID: {id}</p>
         <p>Stock: {stock}</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod dignissimos provident ut soluta vero iusto, nobis obcaecati incidunt nulla! Facilis nobis porro minima repellendus. Consequatur distinctio incidunt excepturi reprehenderit?</p>
-        <img src={img} alt={nombre} className='h-60 w-60 mx-auto mt-10' />
+        <img src={img} alt={nombre} className='h-60 w-60 mx-auto my-10' />
 
         {
           agregarCantidad > 0 ?
